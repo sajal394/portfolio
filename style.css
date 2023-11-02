@@ -1,6 +1,6 @@
 :root {
   --nice-green-color: #679186;
-  --nice-purple-color: #7752fe;
+  --nice-purple-color: #;
   --default-color: #42446e;
   --default-font-family: "Poppins", sans-serif;
   --linear-gradient-pink: linear-gradient(
@@ -16,12 +16,10 @@
 }
 html {
   scroll-behavior: smooth;
-  
 }
 body {
   color: var(--default-color);
   font-family: var(--default-font-family);
-  
 }
 h1 {
   font-weight: 700;
@@ -86,6 +84,7 @@ nav li.active a {
   border-radius: 230px;
 }
 .stack {
+  margin-top: 200px;
   margin-bottom: 200px;
 }
 .card-body {
@@ -154,6 +153,7 @@ footer a {
 }
 footer a:hover {
   color: var(--nice-purple-color);
+  
 }
 .fa-brands {
   text-decoration: none;
@@ -161,6 +161,7 @@ footer a:hover {
 }
 .fa-brands:hover {
   color: var(--nice-purple-color);
+  transform: scale(1.1);
 }
 .icon-project {
   font-size: 35px;
