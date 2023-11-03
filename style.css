@@ -137,7 +137,7 @@ nav li.active a {
 .card-text {
   height: 200px;
 }
-.footer-contact {
+#footer-contact {
   display: flex;
   justify-content: end;
 }
