@@ -1,6 +1,6 @@
 :root {
   --nice-green-color: #679186;
-  --nice-purple-color: #;
+  --nice-purple-color: #7752fe;
   --default-color: #42446e;
   --default-font-family: "Poppins", sans-serif;
   --linear-gradient-pink: linear-gradient(
@@ -70,6 +70,7 @@ nav a {
 nav a:hover,
 nav li.active a {
   color: var(--nice-purple-color);
+  transform: scale(1.1);
 }
 .heading {
   padding: 130px 10px;
@@ -83,9 +84,12 @@ nav li.active a {
   border: 8px solid var(--nice-purple-color);
   border-radius: 230px;
 }
+#bgimage{
+  height: 1000px;
+}
 .stack {
-  margin-top: 200px;
-  margin-bottom: 200px;
+  margin-top: 150px;
+ margin-bottom: 200px;
 }
 .card-body {
   color: var(--default-color);
